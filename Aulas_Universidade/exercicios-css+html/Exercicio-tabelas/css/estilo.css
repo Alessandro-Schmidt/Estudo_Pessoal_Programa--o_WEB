@@ -1,0 +1,25 @@
+.class-tabela{
+    cursor: pointer; 
+}
+
+.class-tabela tr td{
+    padding: 20px;
+}
+
+
+.class-tabela tr:nth-child(2n){
+    background-color: rgb(157, 201, 216);
+}
+
+.class-tabela tr:nth-child(2n+1){
+    background-color: rgb(253, 231, 235);
+}
+
+.class-tabela tr:hover{
+    background-color: rgb(243, 243, 81);
+}
+
+.class-tabela tr:first-child{
+    background-color: black;
+    color: white;
+}
