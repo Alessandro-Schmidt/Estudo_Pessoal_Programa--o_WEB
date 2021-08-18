@@ -46,10 +46,10 @@ header h1{
     color: white;
 }
 
-.class-tabela tr:nth-child(12) td:nth-child(2){
+.class-tabela tr:nth-child(14) td:nth-child(2){
     background-color: #a1c816;
 }
-.class-tabela tr:nth-child(12) td:nth-child(4){
+.class-tabela tr:nth-child(14) td:nth-child(4){
     background-color: #a1c816;
 }
 
