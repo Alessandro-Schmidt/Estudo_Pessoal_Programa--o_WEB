@@ -36,12 +36,12 @@ header h1{
     color: white;
 }
 
-.class-tabela tr:nth-child(11) td:nth-child(2n){
+.class-tabela tr:nth-child(13) td:nth-child(2n){
     background-color: rgb(173, 14, 14);
     color: white;
 }
 
-.class-tabela tr:nth-child(11) td:nth-child(2n+1){
+.class-tabela tr:nth-child(13) td:nth-child(2n+1){
     background-color: rgb(233, 128, 128);
     color: white;
 }
@@ -65,3 +65,6 @@ header h1{
     background-color: grey;
 }
 
+.class-tabela tr:nth-child(12) td:first-child{
+    background-color: grey;
+}
