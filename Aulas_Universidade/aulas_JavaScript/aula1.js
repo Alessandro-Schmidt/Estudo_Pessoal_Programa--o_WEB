@@ -14,6 +14,7 @@ ELe não grava dados.
 Ela resolve problemas de front-end
 */
 window.onload = function(){
-    var valor = document.getElementById("valor").value;
+    var valor = document.getElementById("nome").value;
     alert(valor+" foi digitado");
 }
+
