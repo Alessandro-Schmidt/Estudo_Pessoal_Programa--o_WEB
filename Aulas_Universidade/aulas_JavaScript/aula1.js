@@ -12,7 +12,8 @@ JavaScript é uma linguagem de programação interpretada;
 Esse código consegue interagir com o usuário sem a necessidade de interação com o servidor; 
 ELe não grava dados. 
 Ela resolve problemas de front-end
-
 */
-var valor = document.getElementById("valor").value;
-alert(valor);
+window.onload = function(){
+    var valor = document.getElementById("valor").value;
+    alert(valor+" foi digitado");
+}
