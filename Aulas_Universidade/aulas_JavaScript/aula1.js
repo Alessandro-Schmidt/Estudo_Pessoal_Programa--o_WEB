@@ -9,5 +9,10 @@ HTML; (Cliente)
 JavaScript sim, é linguagem de programação. 
 Ele é a parte lógica de um frontend. 
 JavaScript é uma linguagem de programação interpretada; 
+Esse código consegue interagir com o usuário sem a necessidade de interação com o servidor; 
+ELe não grava dados. 
+Ela resolve problemas de front-end
 
 */
+var valor = document.getElementById("valor").value;
+alert(valor);
