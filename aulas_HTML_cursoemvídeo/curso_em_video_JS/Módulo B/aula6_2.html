@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados com JS</title>
+    <link rel="stylesheet" href="aula6.css">
+</head>
+<body>
+    <div align="center">
+        <h1>Aprendendo a fazer tratamento de dados.</h1>
+    </div>
+
+    <div class="info" align="center">
+        <script>
+            var nome = window.prompt("Qual é o seu nome? ")
+            document.write(`Seu nome <strong>(${nome})</strong> tem ${nome.length} letras. Sabia?`)
+            document.writeln()
+        </script>
+        <script>
+            var valor = Number(window.prompt("Quanto dinheiro você deseja depositar? "))
+            
+            document.write(`Então você deseja depositar ${valor.toLocaleString('pt-BR', {style: 'currency', currency:'BRL'})}?`)
+        </script>
+    </div>
+    <h2 align="center">Viu como essa aula foi legal?</h2>
+</body>
+</html>

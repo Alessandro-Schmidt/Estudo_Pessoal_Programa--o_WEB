@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento de dados com JS</title>
+    <link rel="stylesheet" href="aula6.css">
+</head>
+<body>
+    <div align="center">
+        <h1>Aprendendo a fazer tratamento de dados.</h1>
+    </div>
+    <script>
+        var n1 = Number.parseFloat(window.prompt("Digite o primeiro número: "))
+        var n2 = Number.parseFloat(window.prompt("Digite o segundo número: "))
+        // Podemos também usar apenas o Number(n), que o próprio JavaScript decide qual formato usar
+        soma = n1 + n2
+        window.alert("A soma é igual a "+ soma)
+    </script>
+    <h2>Também estamos usando Template Strings, sabia? </h2>
+    <script>
+        var nome2 = String(window.prompt("Digite seu nome!"))
+        window.alert(`Olá ${nome2}, que alegria tê-lo por aqui!`) // Aqui se usam crases ao invés de ''
+    </script>
+    
+</body>
+</html>
