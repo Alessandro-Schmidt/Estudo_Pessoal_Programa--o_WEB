@@ -4,6 +4,6 @@ Linguagem client side.
 um website é composto por três tecnologias: 
 HTML -informação;  
 CSS - Estilo; 
-JavaScript - Programação; 
+JavaScript - Programação;
 
 */
