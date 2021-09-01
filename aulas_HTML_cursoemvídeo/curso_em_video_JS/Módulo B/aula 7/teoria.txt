@@ -31,3 +31,7 @@ Lógicos:
 && - Conjunção
 || - Disjunção
 
+Código em NodeJs: 
+var media = 5.5
+
+media>7?'APROVADO':'REPROVADO'
