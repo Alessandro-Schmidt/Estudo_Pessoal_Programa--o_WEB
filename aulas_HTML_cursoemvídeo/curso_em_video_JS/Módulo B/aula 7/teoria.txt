@@ -1,0 +1,33 @@
+O JavaScript possui uma série de famílias de Operadores
+os focos do curso em vídeo são: 
+- Aritmético; 
+- Atribuição; 
+Além deles... 
+- Relacionais; 
+- Lógicos; 
+- Ternário; 
+
+
+Aritméticos: 
++ 
+-
+*
+/ 
+%
+**
+
+Relacionais: 
+Aqueles que tem como resultado apenas: 
+- True
+or 
+- False;
+
+Relacionais: 
+- != : diferente
+- == : igual
+
+Lógicos: 
+! - negação
+&& - Conjunção
+|| - Disjunção
+
