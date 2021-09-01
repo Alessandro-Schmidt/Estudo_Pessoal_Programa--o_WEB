@@ -31,6 +31,8 @@ Lógicos:
 && - Conjunção
 || - Disjunção
 
+
+Ternário: 
 Código em NodeJs: 
 var media = 5.5
 
