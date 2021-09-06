@@ -55,3 +55,14 @@ body{
     padding: 5px;
     margin-top: 5px;
 }
+
+.button-rodape-comprado{
+    width: 100%;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}

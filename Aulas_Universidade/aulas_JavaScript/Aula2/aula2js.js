@@ -24,7 +24,12 @@ function fLocalCriaCards(){
         conteudo+='<b>Gênero: </b>'+array_filmes[i][4] +'<br>';
         conteudo+='</div>';
         conteudo+='<div class="div-rodape">';
-        conteudo+='<button class="button-rodape">Comprar</button>';
+
+        if (array_filmes[i][5]== false){
+            conteudo+='<button class="button-rodape">Comprar</button>';
+        }else{
+            conteudo+='<button class="button-rodape-comprado">Comprado</button>';
+        }
         conteudo+='</div>';
         conteudo+='</div>'; 
 
