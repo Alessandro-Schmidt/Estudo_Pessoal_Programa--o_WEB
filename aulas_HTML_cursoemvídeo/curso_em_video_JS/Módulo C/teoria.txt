@@ -28,6 +28,37 @@ Selecionando elementos na  sua árvore DOM:
     - getElementsByName()
 - por classe; 
     - getElementByClassName()
-- por seletor (CSS);
+- por seletor (CSS); usa elementos de CSS
     - querySelector()
     - querySelectorAII()
+
+Quanto tratamos de eventos DOM, e mais específicamente, eventos de uma div, temos por exemplo os seguintes eventos: 
+
+mouseenter - Quando o mouse enconsta na div
+mousemove - qunado o mouse se move dentro da div
+mousedown - Mouse na div com clique 
+mouseup - soltar o click do mouse
+click - apertar e soltar
+mouseout - mouse saindo da div
+...
+
+
+Função = Conjunto de códgio que serão executadas apenas quando um evento ocorrer. 
+
+function acao(parâmetros){
+    código da funcao 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
