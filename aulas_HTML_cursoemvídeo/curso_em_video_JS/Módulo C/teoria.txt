@@ -1,3 +1,32 @@
 Aqui vamos aprender sobre o DOM - Document object model; 
 Isso é importante para caramba. 
 O que é uma árvore DOM de um website? 
+
+Árvore DOM:
+    - window: 
+        - location (URL, página atual ou anterior)
+        - document (documento atual)
+            - HTML (parent)
+                - head (childs)
+                    - meta
+                    - title
+                - body (childs)
+                    - h1
+                    - p 
+                    - p: 
+                        - Strong
+                    - div
+        - history (De onde você veio, para onde você vai)
+    
+
+Selecionando elementos na  sua árvore DOM: 
+- por marca;
+    - getElementByTagName()
+- por id; 
+    - getElementById()
+- por nome;
+    - getElementsByName()
+- por classe; 
+    - getElementByClassName()
+- por seletor (CSS);
+    - 
