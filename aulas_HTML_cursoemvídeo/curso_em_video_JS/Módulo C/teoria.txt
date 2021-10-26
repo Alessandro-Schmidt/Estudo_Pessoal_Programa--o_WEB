@@ -29,4 +29,5 @@ Selecionando elementos na  sua árvore DOM:
 - por classe; 
     - getElementByClassName()
 - por seletor (CSS);
-    - 
+    - querySelector()
+    - querySelectorAII()

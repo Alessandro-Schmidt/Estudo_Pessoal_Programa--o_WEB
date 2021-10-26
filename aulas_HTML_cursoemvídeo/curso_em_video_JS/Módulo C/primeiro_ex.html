@@ -11,7 +11,7 @@
     <h1>Iniciando estudos com DOM</h1>
     <p>Aqui vai o resultado: </p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
-    <div>Clique em mim</div>
+    <div id="msg">Clique em mim</div>
     <script>
         /*window.document.write(window.document.URL)*/
         /*var corpo = document.body
@@ -21,7 +21,19 @@
         var p2 = document.getElementsByTagName('p')[1]
         window.document.write("A primeira TAG p diz: "+ p1.innerText)
         document.write("Já a segudna tag p diz: "+p2.innerHTML)*/
+
+        /*
+        var d = document.getElementById("msg")
+        d.style.background = 'green'
+        d.innerText = "Estou Aguardando...."
+        document.getElementById('msg').innerText = 'Olá! Mudei este div em uma linha apenas'
+        */ 
+
+        /*var d = document.getElementsByName('msg')[0]
+        d.innerText = 'Olá'*/
         
+        var d = window.document.querySelector('div#msg') // toda div é representada por um #, toda classe por um . 
+        d.style.color = 'blue'
     </script>
 </body>
 </html>
