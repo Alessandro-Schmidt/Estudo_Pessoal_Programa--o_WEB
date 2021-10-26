@@ -1,0 +1,3 @@
+Aqui vamos aprender sobre o DOM - Document object model; 
+Isso é importante para caramba. 
+O que é uma árvore DOM de um website? 
