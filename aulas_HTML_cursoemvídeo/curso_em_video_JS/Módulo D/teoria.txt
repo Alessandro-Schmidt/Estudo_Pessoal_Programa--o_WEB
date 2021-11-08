@@ -1,1 +1,2 @@
 Condições: 
+Quando se usa o Switch, obrigatoriamente em cada caso deve haver um break.
