@@ -46,11 +46,20 @@ header h1{
     color: white;
 }
 
-.class-tabela tr:nth-child(14) td:nth-child(2){
-    background-color: #a1c816;
+.class-tabela tr:nth-child(5) td:nth-child(2){
+    background-color: gold;
 }
-.class-tabela tr:nth-child(14) td:nth-child(4){
-    background-color: #a1c816;
+.class-tabela tr:nth-child(7) td:nth-child(3){
+    background-color: gold;
+}
+
+.class-tabela tr:nth-child(16) td:nth-child(2){
+    color: white;
+    background-color: #537be7;
+}
+.class-tabela tr:nth-child(16) td:nth-child(3){
+    color: white;
+    background-color: #537be7;
 }
 
 .class-tabela tr:nth-child(2n) td:first-child{
@@ -65,7 +74,7 @@ header h1{
     background-color: grey;
 }
 
-.class-tabela tr:nth-child(12) td:first-child{
+.class-tabela tr:nth-child(13) td:first-child{
     background-color: grey;
 }
 
